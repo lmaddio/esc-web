@@ -1,0 +1,4 @@
+export const LIST_STATES = {
+  LIST_SELECT: "LIST_SELECT",
+  LIST_CLEAR: "LIST_CLEAR"
+};

@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+.list:last-child{
+  border-bottom: 1px solid black;
+}
+.App .title {
+  font-size: 24px;
+  text-align: start;
+  padding-left: 10px;
+}
+.App .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.App .left-side {
+  width: 66.6%;
+}
+.App .right-side {
+  width: 33.3%;
+}

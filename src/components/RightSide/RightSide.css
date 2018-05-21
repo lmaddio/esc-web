@@ -1,0 +1,42 @@
+.RightSide {
+  background-color: #eee;
+  padding: 10px;
+  margin-top: 10px;
+}
+.RightSide .text-center {
+  text-align: center;
+}
+.RightSide .title {
+  font-size: 24px;
+}
+.RightSide .buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.RightSide .btn {
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  min-width: 90px;
+  margin: 10px;
+
+}
+.RightSide .btn:hover {
+  webkit-box-shadow: 0px 0px 5px 5px rgba(26,26,26,0.53);
+  moz-box-shadow: 0px 0px 5px 5px rgba(26,26,26,0.53);
+  box-shadow: 0px 0px 5px 5px rgba(26,26,26,0.53);
+}
+.RightSide .btn:disabled {
+  background-color: grey !important;
+  box-shadow: none !important;
+}
+.RightSide .btn.green {
+  background-color: green;
+}
+.RightSide .btn.red {
+  background-color: red;
+}
